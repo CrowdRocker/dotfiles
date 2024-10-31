@@ -61,3 +61,42 @@ done < list_tools.txt
 
  Install Oh My Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+###### Firewall installs ####
+sudo ufw enable
+sudo ufw status verbose
+sudo systemctl enable ufw.service
+sudo systemctl enable fstrim.timer
+sudo systemctl start fstrim.timer
+du -sh /var/cache/pacman/pkg/
+sudo pacman -S -y pacman-contrib
+sudo systemctl enable paccache.timer
+
+### update-grub
+
+git clone https://aur.archlinux.org/update-grub.git
+cd update-grub
+makepkg -si
+cd
+sudo update-grub
+
+### cachyos-repo
+wget https://mirror.cachyos.org/cachyos-repo.tar.xz
+tar xvf cachyos-repo.tar.xz && cd cachyos-repo
+sudo ./cachyos-repo.sh
+
+### chaotic-aur
+sudo pacman-key --recv-key 3056513887B78AEB --keyserver keyserver.ubuntu.com
+sudo pacman-key --lsign-key 3056513887B78AEB
+sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst'
+sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
+
+###### Flatpaks installs ####
+flatpak install flathub com.github.tchx84.Flatseal --assumeyes  --or-update --system
+flatpak install flathub com.adobe.Flash-Player-Projector --assumeyes  --or-update --system
+flatpak install flathub nz.mega.MEGAsync --assumeyes  --or-update --system
+flatpak install flathub fr.natron.Natron --assumeyes  --or-update --system
+flatpak install flathub com.protonvpn.www --assumeyes  --or-update --system
+flatpak install flathub me.proton.Pass --assumeyes  --or-update --system
+
+sudo pacman -Syyu && sudo pacman -Syu
