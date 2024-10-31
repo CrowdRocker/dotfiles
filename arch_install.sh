@@ -40,7 +40,7 @@ fi
 
 # Install tools from list_tools.txt
 while read -r tool; do
-  yay -S --noconfirm "$tool"
+  yay -S --noconfirm --needed "$tool"
 done < list_tools.txt
 
 # Install optional tools with user confirmation
