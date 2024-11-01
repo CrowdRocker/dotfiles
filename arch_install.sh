@@ -38,6 +38,53 @@ else
   exit 1
 fi
 
+# Add chaotic AUR keys and repository if not added, else skip
+echo "Adding chaotic AUR keys and repository"
+if ! pacman-key --list-keys chaotic-aur &> /dev/null; then
+  echo "Adding chaotic AUR keys and repository"
+  sudo pacman-key --recv-key 3056513887B78AEB --keyserver keyserver.ubuntu.com
+  sudo pacman-key --lsign-key 3056513887B78AEB
+  sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst'
+  sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
+  echo "Chaotic AUR keys added successfully"
+else 
+  echo "Chaotic AUR keys and repository already added. Skipping..."
+fi
+
+# Add chaotic AUR
+if ! grep -q "^\[chaotic-aur\]" /etc/pacman.conf; then
+  echo "[chaotic-aur]
+Include = /etc/pacman.d/chaotic-mirrorlist" | sudo tee -a /etc/pacman.conf
+  sudo pacman -Sy
+  echo "Chaotic AUR repository added/updated successfully"
+fi
+
+# Add cachyos AUR keys and repository if not added, else skip
+echo "Adding chaotic AUR keys and repository"
+if ! pacman-key --list-keys chaotic-aur &> /dev/null; then
+  echo "Adding cachyos AUR keys and repository"
+ # Import the repository key
+sudo pacman-key --recv-keys F3B607488DB35A47 --keyserver keyserver.ubuntu.com
+# Sign the repository key
+sudo pacman-key --lsign-key F3B607488DB35A47
+sudo pacman -U 'https://mirror.cachyos.org/repo/x86_64/cachyos/cachyos-keyring-20240331-1-any.pkg.tar.zst' \
+'https://mirror.cachyos.org/repo/x86_64/cachyos/cachyos-mirrorlist-18-1-any.pkg.tar.zst' \
+'https://mirror.cachyos.org/repo/x86_64/cachyos/cachyos-v3-mirrorlist-18-1-any.pkg.tar.zst' \
+'https://mirror.cachyos.org/repo/x86_64/cachyos/cachyos-v4-mirrorlist-6-1-any.pkg.tar.zst' \
+'https://mirror.cachyos.org/repo/x86_64/cachyos/pacman-7.0.0.r3.gf3211df-3.1-x86_64.pkg.tar.zst'
+  echo "cachyos AUR keys added successfully"
+else 
+  echo "cachyos AUR keys and repository already added. Skipping..."
+fi
+
+# Add cachyos AUR
+if ! grep -q "^\[cachyos\]" /etc/pacman.conf; then
+  echo "[cachyos]
+Include = /etc/pacman.d/cachyos-mirrorlist" | sudo tee -a /etc/pacman.conf
+  sudo pacman -Sy
+  echo "cachyos AUR repository added/updated successfully"
+fi
+
 # Install tools from list_tools.txt
 while read -r tool; do
   yay -S --noconfirm --needed "$tool"
@@ -59,9 +106,6 @@ done < list_tools.txt
 #   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 # fi
 
- Install Oh My Zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
 ###### Firewall installs ####
 sudo ufw enable
 sudo ufw status verbose
@@ -80,16 +124,6 @@ makepkg -si
 cd
 sudo update-grub
 
-### cachyos-repo
-wget https://mirror.cachyos.org/cachyos-repo.tar.xz
-tar xvf cachyos-repo.tar.xz && cd cachyos-repo
-sudo ./cachyos-repo.sh
-
-### chaotic-aur
-sudo pacman-key --recv-key 3056513887B78AEB --keyserver keyserver.ubuntu.com
-sudo pacman-key --lsign-key 3056513887B78AEB
-sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst'
-sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
 
 ###### Flatpaks installs ####
 flatpak install flathub com.github.tchx84.Flatseal --assumeyes  --or-update --system
