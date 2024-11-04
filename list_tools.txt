@@ -146,6 +146,7 @@ efitools
 emacs
 endeavouros-keyring
 endeavouros-mirrorlist
+engrampa
 epiphany
 espeakup
 ethtool
@@ -219,7 +220,9 @@ glances
 glava
 gmtp
 gnome-disk-utility
+gnome-themes-extra
 google-chrome
+gopsuinfo
 gpart
 gparted
 gpu-screen-recorder-git
@@ -241,6 +244,10 @@ gst-plugins-ugly
 gstreamer-meta
 gtk-engine-murrine
 gtkhash
+gtklock
+gtklock-playerctl-module
+gtklock-powerbar-module
+gtklock-userinfo-module
 gufw
 gutenprint
 gvfs
@@ -267,9 +274,11 @@ hwdetect
 hwinfo
 hydrogen
 hyperv
+hyprland
 hyprshade
 iftop
 ifuse
+imagemagick
 imv
 inetutils
 inkscape
@@ -314,6 +323,7 @@ lib32-pipewire-jack
 lib32-vulkan-mesa-layers
 lib32-vulkan-radeon
 libadwaita
+libappindicator-gtk3
 libdvdcss
 libfido2
 libgsf
@@ -369,7 +379,6 @@ memtest86+
 memtest86+-efi
 menulibre
 mesa-utils
-ml4w-hyprland-git
 micro
 microsoft-edge-stable-bin
 milou
@@ -433,12 +442,20 @@ numlockx
 nvme-cli
 nvtop
 nwg-bar
+nwg-clipman
+nwg-displays
 nwg-dock
+nwg-dock-hyprland
 nwg-drawer
+nwg-hello
+nwg-icon-browser
 nwg-launchers
 nwg-look
 nwg-menu
 nwg-panel
+nwg-readme-browser
+nwg-shell-config
+nwg-shell-wallpapers
 obs-studio
 ocean-sound-theme
 octopi
@@ -498,6 +515,7 @@ pipewire-support
 pitivi
 pkgfile
 plank
+playerctl
 playonlinux
 plocate
 plymouth-kcm
@@ -622,6 +640,13 @@ sublime-text-4
 sudo
 surfn-icons-git
 sushi
+swappy
+sway
+swaybg
+swayidle
+swayimg
+swaylock
+swaync
 sweet-gtk-theme-dark
 swww
 sysfsutils
@@ -737,6 +762,7 @@ ttf-zed-mono-nerd
 tumbler
 udftools
 udiskie
+udisks2
 ueberzug
 ugrep
 ulauncher
@@ -778,6 +804,7 @@ wine-installer
 wireless-regdb
 wireless_tools
 wireplumber
+wl-clipboard
 wlogout
 wlr-randr
 wlsunset
@@ -791,6 +818,7 @@ xautolock
 xbindkeys
 xcape
 xclip
+xdg-desktop-portal-hyprland
 xdg-desktop-portal-wlr
 xdg-desktop-portal-xapp
 xdg-user-dirs
@@ -835,6 +863,7 @@ xorg-xrandr
 xorg-xrefresh
 xorg-xsetroot
 xorg-xvinfo
+xorg-xwayland
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
