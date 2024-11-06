@@ -891,3 +891,4 @@ zoxide
 zram-generator
 zsh
 zsh-completions
+yazi
