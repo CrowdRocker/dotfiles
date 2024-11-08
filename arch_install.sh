@@ -107,5 +107,11 @@ flatpak install flathub nz.mega.MEGAsync --assumeyes  --or-update --system
 flatpak install flathub fr.natron.Natron --assumeyes  --or-update --system
 flatpak install flathub com.protonvpn.www --assumeyes  --or-update --system
 flatpak install flathub me.proton.Pass --assumeyes  --or-update --system
+flatpak install flathub com.notepadqq.Notepadqq --assumeyes  --or-update --system
+flatpak install flathub ua.org.brezblock.q4wine --assumeyes  --or-update --system
+flatpak install flathub com.usebottles.bottles --assumeyes  --or-update --system
+flatpak install flathub com.vysp3r.ProtonPlus --assumeyes  --or-update --system
+flatpak install flathub com.github.Matoking.protontricks --assumeyes  --or-update --system
+
 
 sudo pacman -Syyu && sudo pacman -Syu
