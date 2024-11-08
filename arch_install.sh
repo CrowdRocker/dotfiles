@@ -63,7 +63,7 @@ fi
 # Install tools from list_tools.txt
 while read -r tool; do
   yay -S --noconfirm --needed "$tool"
-done < list_tools.txt
+done < packages-xfce4.txt
 
 # Install optional tools with user confirmation
 # while read -r optional_tool; do
