@@ -862,3 +862,8 @@ yay -S --noconfirm --needed xorg-fonts-misc
 yay -S --noconfirm --needed xorg-mkfontscale
 
 sudo pacman -Syyu && sudo pacman -Syu && fc-cache -fv
+
+git clone https://github.com/EndeavourOS-Community-Editions/sway.git
+cd sway
+sudo ./sway-install.sh
+sudo pacman -Syu
