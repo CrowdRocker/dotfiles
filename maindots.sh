@@ -64,6 +64,8 @@ Current=sddm-flower-theme" | sudo tee /etc/sddm.conf
 sudo systemctl enable sddm.service
 
 ###### Packages ########     
+
+yay -S --noconfirm --needed Azote
 yay -S --noconfirm --needed abiword
 yay -S --noconfirm --needed acpi
 yay -S --noconfirm --needed alacritty
@@ -78,11 +80,11 @@ yay -S --noconfirm --needed appstream-qt5
 yay -S --noconfirm --needed arandr
 yay -S --noconfirm --needed arc-gtk-theme-eos
 yay -S --noconfirm --needed arc-x-icons-theme
+yay -S --noconfirm --needed arch-gaming-meta
 yay -S --noconfirm --needed arch-install-scripts
 yay -S --noconfirm --needed arch-update
 yay -S --noconfirm --needed archlinux-tweak-tool-git
 yay -S --noconfirm --needed archlinux-xdg-menu
-yay -S --noconfirm --needed arch-gaming-meta
 yay -S --noconfirm --needed ardour
 yay -S --noconfirm --needed aria2
 yay -S --noconfirm --needed arj
@@ -166,14 +168,15 @@ yay -S --noconfirm --needed dracula-cursors-git
 yay -S --noconfirm --needed dracula-gtk-theme-git
 yay -S --noconfirm --needed dracula-icons-git
 yay -S --noconfirm --needed dracut
-yay -S --noconfirm --needed dunst
 yay -S --noconfirm --needed duf
+yay -S --noconfirm --needed dunst
 yay -S --noconfirm --needed dvgrab
 yay -S --noconfirm --needed easyeffects
 yay -S --noconfirm --needed edid-decode-git
 yay -S --noconfirm --needed edk2-shell
 yay -S --noconfirm --needed efibootmgr
 yay -S --noconfirm --needed efitools
+yay -S --noconfirm --needed egl-wayland
 yay -S --noconfirm --needed emacs
 yay -S --noconfirm --needed endeavouros-xfce4-terminal-colors
 yay -S --noconfirm --needed engrampa
@@ -209,6 +212,7 @@ yay -S --noconfirm --needed foomatic-db-gutenprint-ppds
 yay -S --noconfirm --needed foomatic-db-nonfree
 yay -S --noconfirm --needed foomatic-db-nonfree-ppds
 yay -S --noconfirm --needed foomatic-db-ppds
+yay -S --noconfirm --needed foot
 yay -S --noconfirm --needed fpc
 yay -S --noconfirm --needed fsarchiver
 yay -S --noconfirm --needed fscrypt
@@ -256,6 +260,7 @@ yay -S --noconfirm --needed gst-plugin-pipewire
 yay -S --noconfirm --needed gstreamer-meta
 yay -S --noconfirm --needed gthumb
 yay -S --noconfirm --needed gtk-engine-murrine
+yay -S --noconfirm --needed gtk-layer-shell
 yay -S --noconfirm --needed gtkhash
 yay -S --noconfirm --needed gtklock
 yay -S --noconfirm --needed gtklock-playerctl-module
@@ -284,12 +289,6 @@ yay -S --noconfirm --needed htop
 yay -S --noconfirm --needed hunspell-fr
 yay -S --noconfirm --needed hw-probe
 yay -S --noconfirm --needed hwdetect
-yay -S --noconfirm --needed i3-gaps
-yay -S --noconfirm --needed i3blocks
-yay -S --noconfirm --needed i3lock-color
-yay -S --noconfirm --needed i3-resurrect
-yay -S --noconfirm --needed i3status
-yay -S --noconfirm --needed i3-rounded-border-patch-git
 yay -S --noconfirm --needed iftop
 yay -S --noconfirm --needed ifuse
 yay -S --noconfirm --needed imv
@@ -430,6 +429,17 @@ yay -S --noconfirm --needed numix-gtk-theme-git
 yay -S --noconfirm --needed numlockx
 yay -S --noconfirm --needed nvme-cli
 yay -S --noconfirm --needed nvtop
+yay -S --noconfirm --needed nwg-bar
+yay -S --noconfirm --needed nwg-clipman
+yay -S --noconfirm --needed nwg-displays
+yay -S --noconfirm --needed nwg-dock
+yay -S --noconfirm --needed nwg-drawer
+yay -S --noconfirm --needed nwg-hello
+yay -S --noconfirm --needed nwg-icon-picker
+yay -S --noconfirm --needed nwg-look
+yay -S --noconfirm --needed nwg-menu
+yay -S --noconfirm --needed nwg-panel
+yay -S --noconfirm --needed nwg-readme-browser
 yay -S --noconfirm --needed obs-studio
 yay -S --noconfirm --needed obsidian
 yay -S --noconfirm --needed obsidian-icon-theme
@@ -470,6 +480,7 @@ yay -S --noconfirm --needed pkgfile
 yay -S --noconfirm --needed playonlinux
 yay -S --noconfirm --needed plocate
 yay -S --noconfirm --needed pokemon-colorscripts-git
+yay -S --noconfirm --needed polkit-gnome
 yay -S --noconfirm --needed polybar
 yay -S --noconfirm --needed power-profiles-daemon
 yay -S --noconfirm --needed powerpill
@@ -539,6 +550,7 @@ yay -S --noconfirm --needed shairport-sync
 yay -S --noconfirm --needed shotwell
 yay -S --noconfirm --needed simple-scan
 yay -S --noconfirm --needed simplescreenrecorder
+yay -S --noconfirm --needed slurp
 yay -S --noconfirm --needed smartmontools
 yay -S --noconfirm --needed smplayer
 yay -S --noconfirm --needed smplayer-skins
@@ -556,6 +568,13 @@ yay -S --noconfirm --needed streamlink-twitch-gui-bin
 yay -S --noconfirm --needed sublime-text-4
 yay -S --noconfirm --needed surfn-icons-git
 yay -S --noconfirm --needed sushi
+yay -S --noconfirm --needed swappy
+yay -S --noconfirm --needed sway
+yay -S --noconfirm --needed sway-contrib
+yay -S --noconfirm --needed swaybg
+yay -S --noconfirm --needed swayidle
+yay -S --noconfirm --needed swaylock
+yay -S --noconfirm --needed swaync
 yay -S --noconfirm --needed sweet-gtk-theme-dark
 yay -S --noconfirm --needed swww
 yay -S --noconfirm --needed syslinux
@@ -583,6 +602,9 @@ yay -S --noconfirm --needed translate-shell
 yay -S --noconfirm --needed transmission-gtk
 yay -S --noconfirm --needed tree
 yay -S --noconfirm --needed trizen
+yay -S --noconfirm --needed ttf-jetbrains-mono
+yay -S --noconfirm --needed ttf-nerd-fonts-symbols
+yay -S --noconfirm --needed ttf-ubuntu-font-family
 yay -S --noconfirm --needed tumbler
 yay -S --noconfirm --needed udftools
 yay -S --noconfirm --needed udiskie
@@ -608,17 +630,21 @@ yay -S --noconfirm --needed vkbasalt
 yay -S --noconfirm --needed volumeicon
 yay -S --noconfirm --needed vscodium
 yay -S --noconfirm --needed vulkan-intel
+yay -S --noconfirm --needed waybar
+yay -S --noconfirm --needed wayland-protocols
 yay -S --noconfirm --needed wget
 yay -S --noconfirm --needed whitesur-icon-theme-git
 yay -S --noconfirm --needed wine-installer
 yay -S --noconfirm --needed wireless-regdb
 yay -S --noconfirm --needed wireless_tools
 yay -S --noconfirm --needed wireplumber
+yay -S --noconfirm --needed wl-clipboard
 yay -S --noconfirm --needed xarchiver
 yay -S --noconfirm --needed xautolock
 yay -S --noconfirm --needed xbindkeys
 yay -S --noconfirm --needed xcape
 yay -S --noconfirm --needed xclip
+yay -S --noconfirm --needed xdg-desktop-portal-wlr
 yay -S --noconfirm --needed xdg-desktop-portal-xapp
 yay -S --noconfirm --needed xdg-user-dirs-gtk
 yay -S --noconfirm --needed xdotool
@@ -627,10 +653,6 @@ yay -S --noconfirm --needed xf86-video-amdgpu
 yay -S --noconfirm --needed xf86-video-ati
 yay -S --noconfirm --needed xf86-video-nouveau
 yay -S --noconfirm --needed xf86-video-vmware
-yay -S --noconfirm --needed xfce4
-yay -S --noconfirm --needed xfce4-goodies
-yay -S --noconfirm --needed xfce4-docklike-plugin 
-yay -S --noconfirm --needed xfce4-panel-profiles
 yay -S --noconfirm --needed xorg-bdftopcf
 yay -S --noconfirm --needed xorg-server-xephyr
 yay -S --noconfirm --needed xorg-sessreg
@@ -653,6 +675,7 @@ yay -S --noconfirm --needed xorg-xlsclients
 yay -S --noconfirm --needed xorg-xpr
 yay -S --noconfirm --needed xorg-xrefresh
 yay -S --noconfirm --needed xorg-xvinfo
+yay -S --noconfirm --needed xorg-xwayland
 yay -S --noconfirm --needed xorg-xwd
 yay -S --noconfirm --needed xorg-xwininfo
 yay -S --noconfirm --needed xorg-xwud
