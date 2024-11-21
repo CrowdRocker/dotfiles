@@ -4,126 +4,126 @@
 # My personal dotfiles including swayfx
 
 ###### Fonts ######## 
-yay -S --noconfirm --needed adobe-source-code-pro-fonts
-yay -S --noconfirm --needed adobe-source-han-sans-cn-fonts
-yay -S --noconfirm --needed adobe-source-han-sans-jp-fonts
-yay -S --noconfirm --needed adobe-source-han-sans-kr-fonts
-yay -S --noconfirm --needed adobe-source-sans-fonts
-yay -S --noconfirm --needed adobe-source-serif-fonts
-yay -S --noconfirm --needed awesome-terminal-fonts
-yay -S --noconfirm --needed font-manager
-yay -S --noconfirm --needed gsfonts
-yay -S --noconfirm --needed noto-fonts
-yay -S --noconfirm --needed noto-fonts-cjk
-yay -S --noconfirm --needed noto-fonts-emoji
-yay -S --noconfirm --needed noto-fonts-extra
-yay -S --noconfirm --needed otf-aurulent-nerd
-yay -S --noconfirm --needed otf-codenewroman-nerd
-yay -S --noconfirm --needed otf-comicshanns-nerd
-yay -S --noconfirm --needed otf-commit-mono-nerd
-yay -S --noconfirm --needed otf-droid-nerd
-yay -S --noconfirm --needed otf-firamono-nerd
-yay -S --noconfirm --needed otf-font-awesome
-yay -S --noconfirm --needed otf-font-awesome-4
-yay -S --noconfirm --needed otf-geist-mono-nerd
-yay -S --noconfirm --needed otf-hasklig-nerd
-yay -S --noconfirm --needed otf-hermit-nerd
-yay -S --noconfirm --needed otf-libertinus
-yay -S --noconfirm --needed otf-monaspace-nerd
-yay -S --noconfirm --needed otf-opendyslexic-nerd
-yay -S --noconfirm --needed otf-overpass-ne
-yay -S --noconfirm --needed powerline-fonts
-yay -S --noconfirm --needed terminus-font
-yay -S --noconfirm --needed ttf-0xproto-nerd
-yay -S --noconfirm --needed ttf-3270-nerd
-yay -S --noconfirm --needed ttf-agave-nerd
-yay -S --noconfirm --needed ttf-anonymous-pro
-yay -S --noconfirm --needed ttf-anonymouspro-nerd
-yay -S --noconfirm --needed ttf-arimo-nerd
-yay -S --noconfirm --needed ttf-bigblueterminal-nerd
-yay -S --noconfirm --needed ttf-bitstream-vera
-yay -S --noconfirm --needed ttf-bitstream-vera-mono-nerd
-yay -S --noconfirm --needed ttf-caladea
-yay -S --noconfirm --needed ttf-carlito
-yay -S --noconfirm --needed ttf-cascadia-code
-yay -S --noconfirm --needed ttf-cascadia-code-nerd
-yay -S --noconfirm --needed ttf-cascadia-mono-nerd
-yay -S --noconfirm --needed ttf-cormorant
-yay -S --noconfirm --needed ttf-cousine-nerd
-yay -S --noconfirm --needed ttf-croscore
-yay -S --noconfirm --needed ttf-d2coding-nerd
-yay -S --noconfirm --needed ttf-daddytime-mono-nerd
-yay -S --noconfirm --needed ttf-dejavu
-yay -S --noconfirm --needed ttf-dejavu-nerd
-yay -S --noconfirm --needed ttf-droid
-yay -S --noconfirm --needed ttf-envycoder-nerd
-yay -S --noconfirm --needed ttf-eurof
-yay -S --noconfirm --needed ttf-fantasque-nerd
-yay -S --noconfirm --needed ttf-fantasque-sans-mono
-yay -S --noconfirm --needed ttf-fira-code
-yay -S --noconfirm --needed ttf-fira-mono
-yay -S --noconfirm --needed ttf-fira-sans
-yay -S --noconfirm --needed ttf-firacode-nerd
-yay -S --noconfirm --needed ttf-font-awesome
-yay -S --noconfirm --needed ttf-go-nerd
-yay -S --noconfirm --needed ttf-gohu-nerd
-yay -S --noconfirm --needed ttf-google-fonts-git
-yay -S --noconfirm --needed ttf-hack
-yay -S --noconfirm --needed ttf-hack-nerd
-yay -S --noconfirm --needed ttf-hactor
-yay -S --noconfirm --needed ttf-heavydata-nerd
-yay -S --noconfirm --needed ttf-hellvetica
-yay -S --noconfirm --needed ttf-iawriter-nerd
-yay -S --noconfirm --needed ttf-ibm-plex
-yay -S --noconfirm --needed ttf-ibmplex-mono-nerd
-yay -S --noconfirm --needed ttf-inconsolata
-yay -S --noconfirm --needed ttf-inconsolata-go-nerd
-yay -S --noconfirm --needed ttf-inconsolata-lgc-nerd
-yay -S --noconfirm --needed ttf-inconsolata-nerd
-yay -S --noconfirm --needed ttf-intone-nerd
-yay -S --noconfirm --needed ttf-iosevka-nerd
-yay -S --noconfirm --needed ttf-iosevkaterm-nerd
-yay -S --noconfirm --needed ttf-iosevkatermslab-nerd
-yay -S --noconfirm --needed ttf-jetbrains-mono
-yay -S --noconfirm --needed ttf-jetbrains-mono-nerd
-yay -S --noconfirm --needed ttf-joypixels
-yay -S --noconfirm --needed ttf-lato
-yay -S --noconfirm --needed ttf-lekton-nerd
-yay -S --noconfirm --needed ttf-liberation
-yay -S --noconfirm --needed ttf-liberation-mono-nerd
-yay -S --noconfirm --needed ttf-lilex-nerd
-yay -S --noconfirm --needed ttf-linux-libertine
-yay -S --noconfirm --needed ttf-linux-libertine-g
-yay -S --noconfirm --needed ttf-mac-fonts
-yay -S --noconfirm --needed ttf-martian-mono-nerd
-yay -S --noconfirm --needed ttf-meslo-nerd
-yay -S --noconfirm --needed ttf-meslo-nerd-font-powerlevel10k
-yay -S --noconfirm --needed ttf-monofur
-yay -S --noconfirm --needed ttf-monofur-nerd
-yay -S --noconfirm --needed ttf-monoid-nerd
-yay -S --noconfirm --needed ttf-mononoki-nerd
-yay -S --noconfirm --needed ttf-mplus-nerd
-yay -S --noconfirm --needed ttf-ms-fonts
-yay -S --noconfirm --needed ttf-nerd-fonts-symbols
-yay -S --noconfirm --needed ttf-nerd-fonts-symbols-mono
-yay -S --noconfirm --needed ttf-noto-nerd
-yay -S --noconfirm --needed ttf-opensans
-yay -S --noconfirm --needed ttf-profont-nerd
-yay -S --noconfirm --needed ttf-proggyclean-nerd
-yay -S --noconfirm --needed ttf-recursive-nerd
-yay -S --noconfirm --needed ttf-roboto
-yay -S --noconfirm --needed ttf-roboto-mono
-yay -S --noconfirm --needed ttf-roboto-mono-nerd
-yay -S --noconfirm --needed ttf-sharetech-mono-nerd
-yay -S --noconfirm --needed ttf-sourcecodepro-nerd
-yay -S --noconfirm --needed ttf-space-mono-nerd
-yay -S --noconfirm --needed ttf-terminus-nerd
-yay -S --noconfirm --needed ttf-tinos-nerd
-yay -S --noconfirm --needed ttf-ubuntu-font-family
-yay -S --noconfirm --needed ttf-ubuntu-mono-nerd
-yay -S --noconfirm --needed ttf-ubuntu-nerd
-yay -S --noconfirm --needed ttf-victor-mono-nerd
-yay -S --noconfirm --needed ttf-zed-mono-nerd
-yay -S --noconfirm --needed tty-clock-git
-yay -S --noconfirm --needed xorg-fonts-misc
-yay -S --noconfirm --needed xorg-mkfontscale
+adobe-source-code-pro-fonts
+adobe-source-han-sans-cn-fonts
+adobe-source-han-sans-jp-fonts
+adobe-source-han-sans-kr-fonts
+adobe-source-sans-fonts
+adobe-source-serif-fonts
+awesome-terminal-fonts
+font-manager
+gsfonts
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+noto-fonts-extra
+otf-aurulent-nerd
+otf-codenewroman-nerd
+otf-comicshanns-nerd
+otf-commit-mono-nerd
+otf-droid-nerd
+otf-firamono-nerd
+otf-font-awesome
+otf-font-awesome-4
+otf-geist-mono-nerd
+otf-hasklig-nerd
+otf-hermit-nerd
+otf-libertinus
+otf-monaspace-nerd
+otf-opendyslexic-nerd
+otf-overpass-ne
+powerline-fonts
+terminus-font
+ttf-0xproto-nerd
+ttf-3270-nerd
+ttf-agave-nerd
+ttf-anonymous-pro
+ttf-anonymouspro-nerd
+ttf-arimo-nerd
+ttf-bigblueterminal-nerd
+ttf-bitstream-vera
+ttf-bitstream-vera-mono-nerd
+ttf-caladea
+ttf-carlito
+ttf-cascadia-code
+ttf-cascadia-code-nerd
+ttf-cascadia-mono-nerd
+ttf-cormorant
+ttf-cousine-nerd
+ttf-croscore
+ttf-d2coding-nerd
+ttf-daddytime-mono-nerd
+ttf-dejavu
+ttf-dejavu-nerd
+ttf-droid
+ttf-envycoder-nerd
+ttf-eurof
+ttf-fantasque-nerd
+ttf-fantasque-sans-mono
+ttf-fira-code
+ttf-fira-mono
+ttf-fira-sans
+ttf-firacode-nerd
+ttf-font-awesome
+ttf-go-nerd
+ttf-gohu-nerd
+ttf-google-fonts-git
+ttf-hack
+ttf-hack-nerd
+ttf-hactor
+ttf-heavydata-nerd
+ttf-hellvetica
+ttf-iawriter-nerd
+ttf-ibm-plex
+ttf-ibmplex-mono-nerd
+ttf-inconsolata
+ttf-inconsolata-go-nerd
+ttf-inconsolata-lgc-nerd
+ttf-inconsolata-nerd
+ttf-intone-nerd
+ttf-iosevka-nerd
+ttf-iosevkaterm-nerd
+ttf-iosevkatermslab-nerd
+ttf-jetbrains-mono
+ttf-jetbrains-mono-nerd
+ttf-joypixels
+ttf-lato
+ttf-lekton-nerd
+ttf-liberation
+ttf-liberation-mono-nerd
+ttf-lilex-nerd
+ttf-linux-libertine
+ttf-linux-libertine-g
+ttf-mac-fonts
+ttf-martian-mono-nerd
+ttf-meslo-nerd
+ttf-meslo-nerd-font-powerlevel10k
+ttf-monofur
+ttf-monofur-nerd
+ttf-monoid-nerd
+ttf-mononoki-nerd
+ttf-mplus-nerd
+ttf-ms-fonts
+ttf-nerd-fonts-symbols
+ttf-nerd-fonts-symbols-mono
+ttf-noto-nerd
+ttf-opensans
+ttf-profont-nerd
+ttf-proggyclean-nerd
+ttf-recursive-nerd
+ttf-roboto
+ttf-roboto-mono
+ttf-roboto-mono-nerd
+ttf-sharetech-mono-nerd
+ttf-sourcecodepro-nerd
+ttf-space-mono-nerd
+ttf-terminus-nerd
+ttf-tinos-nerd
+ttf-ubuntu-font-family
+ttf-ubuntu-mono-nerd
+ttf-ubuntu-nerd
+ttf-victor-mono-nerd
+ttf-zed-mono-nerd
+tty-clock-git
+xorg-fonts-misc
+xorg-mkfontscale
