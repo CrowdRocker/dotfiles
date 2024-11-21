@@ -127,6 +127,3 @@ yay -S --noconfirm --needed ttf-zed-mono-nerd
 yay -S --noconfirm --needed tty-clock-git
 yay -S --noconfirm --needed xorg-fonts-misc
 yay -S --noconfirm --needed xorg-mkfontscale
-
-
-sudo pacman -Syu && sudo pacman -Scc && fc-cache -fv
