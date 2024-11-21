@@ -1,764 +1,132 @@
-abiword
-accountsservice
-acpi
-alacritty
-alacritty-themes
-alsa-firmware
-alsa-plugins
-alsa-utils
-amd-ucode
-appimagelauncher
-appmenu-gtk-module
-appstream-glib
-appstream-qt5
-arandr
-arc-gtk-theme-eos
-arch-install-scripts
-arch-update
-archlinux-tweak-tool-git
-archlinux-gaming-meta
-ardour
-aria2
-arj
-aspell
-atril
-audacious
-audacity
-autorandr
-autotiling
-aylurs-gtk-shell
-azote
-b43-fwcutter
-baka-mplayer
-baobab
-base
-base-devel
-base16-alacritty-git
-bash-completion
-bat
-beautyline
-bibata-cursor-theme
-bibata-cursor-translucent
-bibata-extra-cursor-theme
-bibata-rainbow-cursor-theme
-bind
-bitwarden
-bleachbit
-blender
-boost
-bottles
-boxtron
-brave-bin
-breeze
-breeze-gtk
-breeze-plymouth
-bridge-utils
-brightnessctl
-brltty
-broadcom-wl-dkms
-btop
-btrfs-assistant
-btrfs-du
-btrfs-progs
-btrfsmaintenance
-cachyos-kernel-manager
-cachyos-packageinstaller
-calf
-carla
-catfish
-cava
-celluloid
-chezmoi
-chiaki
-clapper
-cliphist
-clipman
-clonezilla
-cloud-init
-codeblocks
-cpuid
-cpupower
-cryptsetup
-cups
-cups-browsed
-cups-filters
-cups-pdf
-cups-pk-helper
-curlftpfs
-darkhttpd
-darktable
-dart-sass
-ddrescue
-deluge
-deluge-gtk
-device-mapper
-dex
-dhcpcd
-dialog
-diffutils
-digikam
-discord
-discover
-dmenu
-dmidecode
-dmraid
-dnsmasq
-docker
-docker-compose
-dolphin
-dosfstools
-dotnet-runtime
-downgrade
-dracula-cursors-git
-dracula-gtk-theme-git
-dracula-icons-git
-dracut
-drkonqi
-duf
-dvgrab
-e2fsprogs
-easyeffects
-edid-decode-git
-edk2-shell
-efibootmgr
-efitools
-emacs
-engrampa
-epiphany
-espeakup
-ethtool
-evince
-exfatprogs
-exo
-eza
-f2fs-tools
-fail2ban
-falkon
-fastfetch
-fatresize
-feh
-festival
-ffmpegthumbnailer
-ffmpegthumbs
-file-roller
-filezilla
-find-the-command
-firefox
-firefox-ublock-origin
-firejail
-firewalld
-fish
-flameshot-git
-flashplugin
-flat-remix-git
-flatpak
-flatpak-kcm
-flavours
-fluent-gtk-theme-git
-font-manager
-foomatic-db
-foomatic-db-engine
-foomatic-db-gutenprint-ppds
-foomatic-db-nonfree
-foomatic-db-nonfree-ppds
-foomatic-db-ppds
-foot
-fpc
-fsarchiver
-fscrypt
-fsearch
-fuse2fs
-fuzzel
-fwupd
-galculator
-garcon
-gcolor3
-gdb
-gdm
-geany
-geany-plugins
-geary
-gedit
-geekbench
-gestures
-ghostscript
-gimp
-git
-gitahead-git
-gitfiend
-gitg
-github-cli
-github-desktop
-gitkraken
-gittyup-git
-gksu
-glances
-glava
-gmtp
-gnome-disk-utility
-gnome-themes-extra
-google-chrome
-gopsuinfo
-gpart
-gparted
-gpu-screen-recorder-git
-graphite-gtk-theme-git
-greetd
-greetd-regreet
-grilo-plugins
-grim
-grimblast-git
-grub
-grub-btrfs
-grub-theme-garuda
-gsfonts
-gsimplecal
-gst-libav
-gst-plugin-pipewire
-gst-plugins-bad
-gst-plugins-ugly
-gstreamer-meta
-gtk-engine-murrine
-gtkhash
-gtklock
-gtklock-playerctl-module
-gtklock-powerbar-module
-gtklock-userinfo-module
-gufw
-gutenprint
-gvfs
-gvfs-afc
-gvfs-dnssd
-gvfs-goa
-gvfs-google
-gvfs-gphoto2
-gvfs-mtp
-gvfs-nfs
-gvfs-onedrive
-gvfs-smb
-gvfs-wsdd
-hardinfo2
-haveged
-hdparm
-heroic-games-launcher-bin
-hexchat
-hplip
-htop
-hunspell-fr
-hw-probe
-hwdetect
-hwinfo
-hydrogen
-iftop
-ifuse
-imagemagick
-imv
-inetutils
-inkscape
-insync-thunar
-intel-media-driver
-intel-ucode
-inxi
-iptables-nft
-irssi
-iw
-iwd
-jacktrip
-jfsutils
-jq
-jre8-openjdk
-kactivitymanagerd
-kanshi
-kate
-kazam
-kdenlive
-keepassxc
-kinfocenter
-konsole
-kooha
-krita
-krita-plugin-gmic
-kvantum
-kvantum-theme-materia
-kvantum-theme-qogir-git
-languagetool
-laptop-detect
-layan-gtk-theme-git
-layer-shell-qt
-lazygit
-ldns
-leafpad
-less
-lftp
-lhasa
-lib32-mesa-vdpau
-lib32-pipewire-jack
-lib32-vulkan-mesa-layers
-lib32-vulkan-radeon
-libadwaita
-libappindicator-gtk3
-libdvdcss
-libfido2
-libgsf
-libkscreen
-libksysguard
-libmythes
-libopenraw
-libreoffice-fresh
-libusb-compat
-libva-intel-driver
-libwnck3
-light
-lightdm
-lightdm-settings
-linux
-linux-atm
-linux-firmware
-linux-firmware-marvell
-linux-headers
-linux-lts
-linux-lts-headers
-linux-zen
-linux-zen-headers
-livecd-sounds
-lmms
-logrotate
-lolcat
-loupe
-lsb-release
-lsd
-lshw
-lsp-plugins-lv2
-lsscsi
-luarocks
-lvm2
-lxappearance
-lxmusic
-lynx
-lzip
-mako
-malcontent
-man-db
-man-pages
-materia-gtk-theme
-mc
-mda.lv2
-mdadm
-megasync-bin
-meld
-memtest86+
-memtest86+-efi
-menulibre
-mesa-utils
-micro
-microsoft-edge-stable-bin
-milou
-mintstick
-mission-center
-mixxx
-mkinitcpio
-mkinitcpio-archiso
-mkinitcpio-firmware
-mkinitcpio-nfs-utils
-modem-manager-gui
-modemmanager
-most
-mousepad
-mousetweaks
-movit
-mpc
-mpd
-mpv
-mpv-mpris
-mtools
-mtpfs
-mugshot
-muse
-mystiq
-mythes-en
-nano
-nano-syntax-highlighting
-nautilus
-nautilus-open-any-terminal
-navi
-nbd
-ncmpcpp
-ndisc6
-neofetch
-neovim
-netctl
-network-manager-applet
-networkmanager
-networkmanager-openconnect
-networkmanager-openvpn
-networkmanager-pptp
-networkmanager-support
-networkmanager-vpnc
-newsboat
-nfs-utils
-nilfs-utils
-nitrogen
-nlohmann-json
-nm-connection-editor
-nma
-nss-mdns
-ntfs-3g
-ntp
-numix-gtk-theme-git
-numlockx
-nvme-cli
-nvtop
-nwg-bar
-nwg-clipman
-nwg-displays
-nwg-dock
-nwg-drawer
-nwg-hello
-nwg-icon-browser
-nwg-launchers
-nwg-look
-nwg-menu
-nwg-panel
-nwg-readme-browser
-nwg-shell-config
-nwg-shell-wallpapers
-obs-studio
-ocean-sound-theme
-octopi
-oh-my-posh-bin
-oh-my-zsh-powerline-theme-git
-okular
-onboard
-open-iscsi
-open-vm-tools
-openrgb
-openshot
-openssh
-opentimelineio
-opera
-opus-tools
-orca
-os-prober
-oxygen
-oxygen-sounds
-pace
-pacman-contrib
-pacseek
-pamac-aur
-pamixer
-papirus-icon-theme
-parole
-paru
-pavucontrol
-pdfarranger
-peek
-perl
-perl-file-mimeinfo
-pev
-picom
-pikaur-git
-pinta
-piper
-pipewire-alsa
-pipewire-jack
-pipewire-pulse
-pipewire-support
-pitivi
-pkgfile
-plank
-playerctl
-playonlinux
-plocate
-plymouth-kcm
-pokemon-colorscripts-git
-polkit-gnome
-polkit-kde-agent
-polybar
-poppler-glib
-power-profiles-daemon
-powerdevil
-powerline-fonts
-powerpill
-powertop
-pptpclient
-print-manager
-printer-support
-protontricks
-protonup-qt
-pulsemixer
-putty
-pv
-python
-python-capng
-python-defusedxml
-python-packaging
-python-pip
-python-pyqt5
-python-pyquery
-python-pywal
-python-ttkbootstrap
-qalculate-gtk
-qbittorrent
-qemu-guest-agent
-qogir-gtk-theme-git
-qpdfview
-qpwgraph
-qsynth
-qt5-3d
-qt5-charts
-qt5-connectivity
-qt5-datavis3d
-qt5-doc
-qt5-examples
-qt5-graphicaleffects
-qt5-imageformats
-qt5-networkauth
-qt5-quick3d
-qt5-quickcontrols
-qt5-quickcontrols2
-qt5-remoteobjects
-qt5-scxml
-qt5-sensors
-qt5-serialport
-qt5-speech
-qt5-svg
-qt5-tools
-qt5-virtualkeyboard
-qt5-websockets
-qt5ct
-qt6ct
-qtcreator
-qtractor
-r
-ranger
-rate-mirrors-bin
-realtime-privileges
-rebuild-detector
-redshift
-refind
-reflector
-reflector-simple
-reiserfsprogs
-replay-sorcery
-retroarch
-ripgrep-all
-ristretto
-rnnoise
-rocm-hip-runtime
-rocm-opencl-runtime
-rofi-calc
-rofi-wayland
-rp-pppoe
-rsync
-rtkit
-rtl8821cu-morrownr-dkms-git
-rxvt-unicode-terminfo
-rygel
-s-nail
-samba
-sane
-sardi-icons
-scanner-support
-scrot
-scummvm
-sddm
-sddm-kcm
-sdparm
-sg3_utils
-shairport-sync
-shotwell
-simple-scan
-simplescreenrecorder
-slurp
-smartmontools
-smplayer
-smplayer-skins
-smplayer-themes
-snapd
-snapper-tools
-snapshot
-sof-firmware
-sofirem-git
-sparklines-git
-splix
-spotify
-spotify-launcher
-squashfs-tools
-starship
-strace
-streamlink-twitch-gui-bin
-sublime-text-4
-sudo
-surfn-icons-git
-sushi
-swappy
-sway
-swaybg
-swayidle
-swayimg
-swaylock
-swaync
-sweet-gtk-theme-dark
-swww
-sysfsutils
-syslinux
-sysstat
-system-config-printer
-systemd-sysvcompat
-systemd-ui
-task
-tcpdump
-tecla
-terminus-font
-testdisk
-texinfo
-the_silver_searcher
-thefuck
-thunar-archive-plugin
-thunar-media-tags-plugin
-thunar-shares-plugin
-thunar-vcs-plugin
-thunar-volman
-thunderbird
-timeshift
-timeshift-autosnap
-tldr
-tmux
-tokyonight-gtk-theme-git
-totem
-traceroute
-translate-shell
-transmission-gtk
-tree
-trizen
-tumbler
-udftools
-udiskie
-udisks2
-ueberzug
-ugrep
-ulauncher
-unace
-unarchiver
-unarj
-unrar
-unzip
-update-grub
-upower
-usb_modeswitch
-usbutils
-variety
-ventoy-bin
-veracrypt
-vi
-vim-airline
-vimix-cursors
-vimix-gtk-themes
-vimix-icon-theme
-visual-studio-code-bin
-vivaldi
-vkbasalt
-vlc
-volumeicon
-vscodium
-vulkan-intel
-wacomtablet
-waybar
-waybar-module-pacman-updates-git
-wdisplays
-we10x-icon-theme-git
-welcome
-wf-recorder
-wget
-which
-whitesur-icon-theme-git
-wine-installer
-wireless-regdb
-wireless_tools
-wireplumber
-wl-clipboard
-wlogout
-wlr-randr
-wlsunset
-wofi
-wpa_supplicant
-wpaperd
-wtype
-wvdial
-xarchiver
-xautolock
-xbindkeys
-xcape
-xclip
-xdg-desktop-portal-wlr
-xdg-desktop-portal-xapp
-xdg-user-dirs
-xdg-utils
-xdotool
-xed
-xf86-input-libinput
-xf86-video-amdgpu
-xf86-video-ati
-xf86-video-nouveau
-xf86-video-vmware
-xfburn
-xfsprogs
-xl2tpd
-xorg-bdftopcf
-xorg-fonts-misc
-xorg-iceauth
-xorg-mkfontscale
-xorg-server
-xorg-server-xephyr
-xorg-sessreg
-xorg-smproxy
-xorg-x11perf
-xorg-xbacklight
-xorg-xcmsdb
-xorg-xcursorgen
-xorg-xdpyinfo
-xorg-xdriinfo
-xorg-xev
-xorg-xgamma
-xorg-xhost
-xorg-xinit
-xorg-xinput
-xorg-xkbevd
-xorg-xkbprint
-xorg-xkbutils
-xorg-xkill
-xorg-xlsatoms
-xorg-xlsclients
-xorg-xpr
-xorg-xrandr
-xorg-xrefresh
-xorg-xsetroot
-xorg-xvinfo
-xorg-xwayland
-xorg-xwd
-xorg-xwininfo
-xorg-xwud
-xpadneo-dkms-git
-xpdf
-xreader
-xsel
-xsettingsd
-xss-lock
-xterm
-yaru-icon-theme
-yay
-yazi
-yelp
-youtube-dl-gui-git
-yt-dlp
-yt-dlp-drop-in
-zam-plugins-lv2
-zathura
-zathura-cb
-zathura-djvu
-zathura-pdf-mupdf
-zathura-ps
-zoxide
-zram-generator
-zsh
-zsh-completions
+#!/bin/sh
+############  CrowdRocker Linux Dotfiles ###################
+# CrowdRocker Linux Dotfiles
+# My personal dotfiles including swayfx
+
+###### Fonts ######## 
+yay -S --noconfirm --needed adobe-source-code-pro-fonts
+yay -S --noconfirm --needed adobe-source-han-sans-cn-fonts
+yay -S --noconfirm --needed adobe-source-han-sans-jp-fonts
+yay -S --noconfirm --needed adobe-source-han-sans-kr-fonts
+yay -S --noconfirm --needed adobe-source-sans-fonts
+yay -S --noconfirm --needed adobe-source-serif-fonts
+yay -S --noconfirm --needed awesome-terminal-fonts
+yay -S --noconfirm --needed font-manager
+yay -S --noconfirm --needed gsfonts
+yay -S --noconfirm --needed noto-fonts
+yay -S --noconfirm --needed noto-fonts-cjk
+yay -S --noconfirm --needed noto-fonts-emoji
+yay -S --noconfirm --needed noto-fonts-extra
+yay -S --noconfirm --needed otf-aurulent-nerd
+yay -S --noconfirm --needed otf-codenewroman-nerd
+yay -S --noconfirm --needed otf-comicshanns-nerd
+yay -S --noconfirm --needed otf-commit-mono-nerd
+yay -S --noconfirm --needed otf-droid-nerd
+yay -S --noconfirm --needed otf-firamono-nerd
+yay -S --noconfirm --needed otf-font-awesome
+yay -S --noconfirm --needed otf-font-awesome-4
+yay -S --noconfirm --needed otf-geist-mono-nerd
+yay -S --noconfirm --needed otf-hasklig-nerd
+yay -S --noconfirm --needed otf-hermit-nerd
+yay -S --noconfirm --needed otf-libertinus
+yay -S --noconfirm --needed otf-monaspace-nerd
+yay -S --noconfirm --needed otf-opendyslexic-nerd
+yay -S --noconfirm --needed otf-overpass-ne
+yay -S --noconfirm --needed powerline-fonts
+yay -S --noconfirm --needed terminus-font
+yay -S --noconfirm --needed ttf-0xproto-nerd
+yay -S --noconfirm --needed ttf-3270-nerd
+yay -S --noconfirm --needed ttf-agave-nerd
+yay -S --noconfirm --needed ttf-anonymous-pro
+yay -S --noconfirm --needed ttf-anonymouspro-nerd
+yay -S --noconfirm --needed ttf-arimo-nerd
+yay -S --noconfirm --needed ttf-bigblueterminal-nerd
+yay -S --noconfirm --needed ttf-bitstream-vera
+yay -S --noconfirm --needed ttf-bitstream-vera-mono-nerd
+yay -S --noconfirm --needed ttf-caladea
+yay -S --noconfirm --needed ttf-carlito
+yay -S --noconfirm --needed ttf-cascadia-code
+yay -S --noconfirm --needed ttf-cascadia-code-nerd
+yay -S --noconfirm --needed ttf-cascadia-mono-nerd
+yay -S --noconfirm --needed ttf-cormorant
+yay -S --noconfirm --needed ttf-cousine-nerd
+yay -S --noconfirm --needed ttf-croscore
+yay -S --noconfirm --needed ttf-d2coding-nerd
+yay -S --noconfirm --needed ttf-daddytime-mono-nerd
+yay -S --noconfirm --needed ttf-dejavu
+yay -S --noconfirm --needed ttf-dejavu-nerd
+yay -S --noconfirm --needed ttf-droid
+yay -S --noconfirm --needed ttf-envycoder-nerd
+yay -S --noconfirm --needed ttf-eurof
+yay -S --noconfirm --needed ttf-fantasque-nerd
+yay -S --noconfirm --needed ttf-fantasque-sans-mono
+yay -S --noconfirm --needed ttf-fira-code
+yay -S --noconfirm --needed ttf-fira-mono
+yay -S --noconfirm --needed ttf-fira-sans
+yay -S --noconfirm --needed ttf-firacode-nerd
+yay -S --noconfirm --needed ttf-font-awesome
+yay -S --noconfirm --needed ttf-go-nerd
+yay -S --noconfirm --needed ttf-gohu-nerd
+yay -S --noconfirm --needed ttf-google-fonts-git
+yay -S --noconfirm --needed ttf-hack
+yay -S --noconfirm --needed ttf-hack-nerd
+yay -S --noconfirm --needed ttf-hactor
+yay -S --noconfirm --needed ttf-heavydata-nerd
+yay -S --noconfirm --needed ttf-hellvetica
+yay -S --noconfirm --needed ttf-iawriter-nerd
+yay -S --noconfirm --needed ttf-ibm-plex
+yay -S --noconfirm --needed ttf-ibmplex-mono-nerd
+yay -S --noconfirm --needed ttf-inconsolata
+yay -S --noconfirm --needed ttf-inconsolata-go-nerd
+yay -S --noconfirm --needed ttf-inconsolata-lgc-nerd
+yay -S --noconfirm --needed ttf-inconsolata-nerd
+yay -S --noconfirm --needed ttf-intone-nerd
+yay -S --noconfirm --needed ttf-iosevka-nerd
+yay -S --noconfirm --needed ttf-iosevkaterm-nerd
+yay -S --noconfirm --needed ttf-iosevkatermslab-nerd
+yay -S --noconfirm --needed ttf-jetbrains-mono
+yay -S --noconfirm --needed ttf-jetbrains-mono-nerd
+yay -S --noconfirm --needed ttf-joypixels
+yay -S --noconfirm --needed ttf-lato
+yay -S --noconfirm --needed ttf-lekton-nerd
+yay -S --noconfirm --needed ttf-liberation
+yay -S --noconfirm --needed ttf-liberation-mono-nerd
+yay -S --noconfirm --needed ttf-lilex-nerd
+yay -S --noconfirm --needed ttf-linux-libertine
+yay -S --noconfirm --needed ttf-linux-libertine-g
+yay -S --noconfirm --needed ttf-mac-fonts
+yay -S --noconfirm --needed ttf-martian-mono-nerd
+yay -S --noconfirm --needed ttf-meslo-nerd
+yay -S --noconfirm --needed ttf-meslo-nerd-font-powerlevel10k
+yay -S --noconfirm --needed ttf-monofur
+yay -S --noconfirm --needed ttf-monofur-nerd
+yay -S --noconfirm --needed ttf-monoid-nerd
+yay -S --noconfirm --needed ttf-mononoki-nerd
+yay -S --noconfirm --needed ttf-mplus-nerd
+yay -S --noconfirm --needed ttf-ms-fonts
+yay -S --noconfirm --needed ttf-nerd-fonts-symbols
+yay -S --noconfirm --needed ttf-nerd-fonts-symbols-mono
+yay -S --noconfirm --needed ttf-noto-nerd
+yay -S --noconfirm --needed ttf-opensans
+yay -S --noconfirm --needed ttf-profont-nerd
+yay -S --noconfirm --needed ttf-proggyclean-nerd
+yay -S --noconfirm --needed ttf-recursive-nerd
+yay -S --noconfirm --needed ttf-roboto
+yay -S --noconfirm --needed ttf-roboto-mono
+yay -S --noconfirm --needed ttf-roboto-mono-nerd
+yay -S --noconfirm --needed ttf-sharetech-mono-nerd
+yay -S --noconfirm --needed ttf-sourcecodepro-nerd
+yay -S --noconfirm --needed ttf-space-mono-nerd
+yay -S --noconfirm --needed ttf-terminus-nerd
+yay -S --noconfirm --needed ttf-tinos-nerd
+yay -S --noconfirm --needed ttf-ubuntu-font-family
+yay -S --noconfirm --needed ttf-ubuntu-mono-nerd
+yay -S --noconfirm --needed ttf-ubuntu-nerd
+yay -S --noconfirm --needed ttf-victor-mono-nerd
+yay -S --noconfirm --needed ttf-zed-mono-nerd
+yay -S --noconfirm --needed tty-clock-git
+yay -S --noconfirm --needed xorg-fonts-misc
+yay -S --noconfirm --needed xorg-mkfontscale
+
+
+sudo pacman -Syu && sudo pacman -Scc && fc-cache -fv
