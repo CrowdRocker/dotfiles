@@ -725,6 +725,9 @@ flatpak install flathub com.github.Matoking.protontricks --assumeyes  --or-updat
 sudo pacman -Syyu && sudo pacman -Syu
 
 
+# Install tools from list_tools.txt
+while read -r tool; do
+  yay -S --noconfirm --needed "$tool"
+done < list_tools.txt
 
-
-
+sudo pacman -Syu && sudo pacman -Scc && fc-cache -fv
