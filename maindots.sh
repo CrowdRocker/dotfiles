@@ -1,7 +1,7 @@
 #!/bin/sh
 ############  CrowdRocker Linux Dotfiles ###################
 # CrowdRocker Linux Dotfiles
-# My personal dotfiles including xfce4 and I3
+# My personal dotfiles including swayfx
 
 sudo pacman -Sy archlinux-keyring && sudo pacman -Syyu
 
@@ -337,13 +337,9 @@ yay -S --noconfirm --needed libva-intel-driver
 yay -S --noconfirm --needed light
 yay -S --noconfirm --needed linux
 yay -S --noconfirm --needed linux-atm
-yay -S --noconfirm --needed linux-cachyos-lts
-yay -S --noconfirm --needed linux-cachyos-lts-headers
 yay -S --noconfirm --needed linux-firmware
 yay -S --noconfirm --needed linux-firmware-marvell
 yay -S --noconfirm --needed linux-headers
-yay -S --noconfirm --needed linux-lts
-yay -S --noconfirm --needed linux-lts-headers
 yay -S --noconfirm --needed linux-zen
 yay -S --noconfirm --needed linux-zen-headers
 yay -S --noconfirm --needed livecd-sounds
@@ -401,14 +397,6 @@ yay -S --noconfirm --needed navi
 yay -S --noconfirm --needed nbd
 yay -S --noconfirm --needed ncmpcpp
 yay -S --noconfirm --needed ndisc6
-yay -S --noconfirm --needed nemo
-yay -S --noconfirm --needed nemo-emblems
-yay -S --noconfirm --needed nemo-fileroller
-yay -S --noconfirm --needed nemo-pastebin
-yay -S --noconfirm --needed nemo-preview
-yay -S --noconfirm --needed nemo-python
-yay -S --noconfirm --needed nemo-share
-yay -S --noconfirm --needed nemo-terminal
 yay -S --noconfirm --needed neofetch
 yay -S --noconfirm --needed neovim
 yay -S --noconfirm --needed netctl
@@ -569,7 +557,7 @@ yay -S --noconfirm --needed sublime-text-4
 yay -S --noconfirm --needed surfn-icons-git
 yay -S --noconfirm --needed sushi
 yay -S --noconfirm --needed swappy
-yay -S --noconfirm --needed sway
+yay -S --noconfirm --needed swayfx
 yay -S --noconfirm --needed sway-contrib
 yay -S --noconfirm --needed swaybg
 yay -S --noconfirm --needed swayidle
@@ -736,130 +724,7 @@ flatpak install flathub com.github.Matoking.protontricks --assumeyes  --or-updat
 
 sudo pacman -Syyu && sudo pacman -Syu
 
-###### Fonts ######## 
-yay -S --noconfirm --needed adobe-source-code-pro-fonts
-yay -S --noconfirm --needed adobe-source-han-sans-cn-fonts
-yay -S --noconfirm --needed adobe-source-han-sans-jp-fonts
-yay -S --noconfirm --needed adobe-source-han-sans-kr-fonts
-yay -S --noconfirm --needed adobe-source-sans-fonts
-yay -S --noconfirm --needed adobe-source-serif-fonts
-yay -S --noconfirm --needed awesome-terminal-fonts
-yay -S --noconfirm --needed font-manager
-yay -S --noconfirm --needed gsfonts
-yay -S --noconfirm --needed noto-fonts
-yay -S --noconfirm --needed noto-fonts-cjk
-yay -S --noconfirm --needed noto-fonts-emoji
-yay -S --noconfirm --needed noto-fonts-extra
-yay -S --noconfirm --needed otf-aurulent-nerd
-yay -S --noconfirm --needed otf-codenewroman-nerd
-yay -S --noconfirm --needed otf-comicshanns-nerd
-yay -S --noconfirm --needed otf-commit-mono-nerd
-yay -S --noconfirm --needed otf-droid-nerd
-yay -S --noconfirm --needed otf-firamono-nerd
-yay -S --noconfirm --needed otf-font-awesome
-yay -S --noconfirm --needed otf-font-awesome-4
-yay -S --noconfirm --needed otf-geist-mono-nerd
-yay -S --noconfirm --needed otf-hasklig-nerd
-yay -S --noconfirm --needed otf-hermit-nerd
-yay -S --noconfirm --needed otf-libertinus
-yay -S --noconfirm --needed otf-monaspace-nerd
-yay -S --noconfirm --needed otf-opendyslexic-nerd
-yay -S --noconfirm --needed otf-overpass-ne
-yay -S --noconfirm --needed powerline-fonts
-yay -S --noconfirm --needed terminus-font
-yay -S --noconfirm --needed ttf-0xproto-nerd
-yay -S --noconfirm --needed ttf-3270-nerd
-yay -S --noconfirm --needed ttf-agave-nerd
-yay -S --noconfirm --needed ttf-anonymous-pro
-yay -S --noconfirm --needed ttf-anonymouspro-nerd
-yay -S --noconfirm --needed ttf-arimo-nerd
-yay -S --noconfirm --needed ttf-bigblueterminal-nerd
-yay -S --noconfirm --needed ttf-bitstream-vera
-yay -S --noconfirm --needed ttf-bitstream-vera-mono-nerd
-yay -S --noconfirm --needed ttf-caladea
-yay -S --noconfirm --needed ttf-carlito
-yay -S --noconfirm --needed ttf-cascadia-code
-yay -S --noconfirm --needed ttf-cascadia-code-nerd
-yay -S --noconfirm --needed ttf-cascadia-mono-nerd
-yay -S --noconfirm --needed ttf-cormorant
-yay -S --noconfirm --needed ttf-cousine-nerd
-yay -S --noconfirm --needed ttf-croscore
-yay -S --noconfirm --needed ttf-d2coding-nerd
-yay -S --noconfirm --needed ttf-daddytime-mono-nerd
-yay -S --noconfirm --needed ttf-dejavu
-yay -S --noconfirm --needed ttf-dejavu-nerd
-yay -S --noconfirm --needed ttf-droid
-yay -S --noconfirm --needed ttf-envycoder-nerd
-yay -S --noconfirm --needed ttf-eurof
-yay -S --noconfirm --needed ttf-fantasque-nerd
-yay -S --noconfirm --needed ttf-fantasque-sans-mono
-yay -S --noconfirm --needed ttf-fira-code
-yay -S --noconfirm --needed ttf-fira-mono
-yay -S --noconfirm --needed ttf-fira-sans
-yay -S --noconfirm --needed ttf-firacode-nerd
-yay -S --noconfirm --needed ttf-font-awesome
-yay -S --noconfirm --needed ttf-go-nerd
-yay -S --noconfirm --needed ttf-gohu-nerd
-yay -S --noconfirm --needed ttf-google-fonts-git
-yay -S --noconfirm --needed ttf-hack
-yay -S --noconfirm --needed ttf-hack-nerd
-yay -S --noconfirm --needed ttf-hactor
-yay -S --noconfirm --needed ttf-heavydata-nerd
-yay -S --noconfirm --needed ttf-hellvetica
-yay -S --noconfirm --needed ttf-iawriter-nerd
-yay -S --noconfirm --needed ttf-ibm-plex
-yay -S --noconfirm --needed ttf-ibmplex-mono-nerd
-yay -S --noconfirm --needed ttf-inconsolata
-yay -S --noconfirm --needed ttf-inconsolata-go-nerd
-yay -S --noconfirm --needed ttf-inconsolata-lgc-nerd
-yay -S --noconfirm --needed ttf-inconsolata-nerd
-yay -S --noconfirm --needed ttf-intone-nerd
-yay -S --noconfirm --needed ttf-iosevka-nerd
-yay -S --noconfirm --needed ttf-iosevkaterm-nerd
-yay -S --noconfirm --needed ttf-iosevkatermslab-nerd
-yay -S --noconfirm --needed ttf-jetbrains-mono
-yay -S --noconfirm --needed ttf-jetbrains-mono-nerd
-yay -S --noconfirm --needed ttf-joypixels
-yay -S --noconfirm --needed ttf-lato
-yay -S --noconfirm --needed ttf-lekton-nerd
-yay -S --noconfirm --needed ttf-liberation
-yay -S --noconfirm --needed ttf-liberation-mono-nerd
-yay -S --noconfirm --needed ttf-lilex-nerd
-yay -S --noconfirm --needed ttf-linux-libertine
-yay -S --noconfirm --needed ttf-linux-libertine-g
-yay -S --noconfirm --needed ttf-mac-fonts
-yay -S --noconfirm --needed ttf-martian-mono-nerd
-yay -S --noconfirm --needed ttf-meslo-nerd
-yay -S --noconfirm --needed ttf-meslo-nerd-font-powerlevel10k
-yay -S --noconfirm --needed ttf-monofur
-yay -S --noconfirm --needed ttf-monofur-nerd
-yay -S --noconfirm --needed ttf-monoid-nerd
-yay -S --noconfirm --needed ttf-mononoki-nerd
-yay -S --noconfirm --needed ttf-mplus-nerd
-yay -S --noconfirm --needed ttf-ms-fonts
-yay -S --noconfirm --needed ttf-nerd-fonts-symbols
-yay -S --noconfirm --needed ttf-nerd-fonts-symbols-mono
-yay -S --noconfirm --needed ttf-noto-nerd
-yay -S --noconfirm --needed ttf-opensans
-yay -S --noconfirm --needed ttf-profont-nerd
-yay -S --noconfirm --needed ttf-proggyclean-nerd
-yay -S --noconfirm --needed ttf-recursive-nerd
-yay -S --noconfirm --needed ttf-roboto
-yay -S --noconfirm --needed ttf-roboto-mono
-yay -S --noconfirm --needed ttf-roboto-mono-nerd
-yay -S --noconfirm --needed ttf-sharetech-mono-nerd
-yay -S --noconfirm --needed ttf-sourcecodepro-nerd
-yay -S --noconfirm --needed ttf-space-mono-nerd
-yay -S --noconfirm --needed ttf-terminus-nerd
-yay -S --noconfirm --needed ttf-tinos-nerd
-yay -S --noconfirm --needed ttf-ubuntu-font-family
-yay -S --noconfirm --needed ttf-ubuntu-mono-nerd
-yay -S --noconfirm --needed ttf-ubuntu-nerd
-yay -S --noconfirm --needed ttf-victor-mono-nerd
-yay -S --noconfirm --needed ttf-zed-mono-nerd
-yay -S --noconfirm --needed tty-clock-git
-yay -S --noconfirm --needed xorg-fonts-misc
-yay -S --noconfirm --needed xorg-mkfontscale
 
-sudo pacman -Syyu && sudo pacman -Syu && fc-cache -fv
+
+
 
